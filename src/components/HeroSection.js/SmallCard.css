@@ -1,0 +1,31 @@
+.smallCard{
+    /* border: 1px solid black; */
+    width: 180px;
+    height: 120px;
+    display: inline-block;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 6%) 0px 4px 7px;
+    cursor: pointer;
+    position: relative;
+}
+
+.smallCard img{
+    width: 50px;
+}
+.smallCard p{
+    font-size: 12px;
+}
+.live{
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    right: 0px;
+    top: 0;
+    background-color: red;
+}

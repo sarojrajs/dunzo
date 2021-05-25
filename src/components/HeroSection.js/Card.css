@@ -1,0 +1,12 @@
+.card{
+    display: inline-block;
+    /* border: 1px solid black; */
+    position: relative;
+    cursor: pointer;
+}
+.card img{
+    width: 244px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: transparent;
+}

@@ -1,0 +1,47 @@
+.posts{
+    min-height: 420px;
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quotes{
+    opacity: 0.2;
+}
+.end img{
+    transform: rotate(180deg);
+}
+.postText p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #171e2f;
+    font-family: "Montserrat", sans-serif;
+}
+.userPosts{
+    background-color: #00ffa4;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.userName{
+    color: #171e2f;font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.userCity{
+    font-size: 16px;
+    margin-top: 3px;
+    opacity: .5;
+    color: #171e2f;
+    font-family: "Montserrat", sans-serif;
+}
+.userPosts img{
+    position: absolute;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 5px solid #00ffa4;
+    top: -90%;
+    right: 0;
+}

@@ -1,0 +1,53 @@
+.advantageTable{
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+.comments{
+    padding: 40px 20px;
+    width: 500px;
+}
+.comments h1{
+    color: #171e2f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+.comments p{
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: rgba(23, 30, 47, 0.67);
+}
+
+@media screen and (max-width:500px) {
+    .comments{
+        width: auto;
+    }
+}
+@media screen and (max-width:850px) {
+    .advantageTable{
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (min-width:851px) and (max-width:1199px) {
+    .advantageTable{
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .postsComponent{
+        margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}

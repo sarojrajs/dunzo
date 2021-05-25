@@ -1,0 +1,33 @@
+.topPicks{
+    padding: 30px 100px;
+}
+.topPicksTitle h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.topPicksTitleUnderline{
+    margin-top: 12px;
+    display: flex;
+    height: 10px;
+    /* border: 1px solid black; */
+}
+.topPicksTitleUnderline span:first-child{
+    width: 45px;
+    height: 7px;
+    background-color: rgb(0, 210, 144);
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.topPicksTitleUnderline span{
+    width: 20px;
+    height: 7px;
+    background-color: rgb(0, 210, 144);
+    border-radius: 25px;
+}
+.topPicksCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}

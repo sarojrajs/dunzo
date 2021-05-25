@@ -1,0 +1,48 @@
+.download{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background:rgba(214, 213, 213, 0.877); */
+
+}
+.downloadBackGround{
+    background:rgba(214, 213, 213, 0.877);
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.phoneImage{
+    /* border: 1px solid black; */
+}
+.phoneImage img{
+    width: 176px;
+    height: 240px;
+    /* position: absolute;
+    bottom: 0; */
+}
+.downloadInfo{
+    /* border: 1px solid black; */
+    align-self: flex-end;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.downloadInfo h4{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.downloadButtons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.downloadButtons>*{
+    margin-right: 20px;
+}

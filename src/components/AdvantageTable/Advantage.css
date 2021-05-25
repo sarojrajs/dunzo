@@ -1,0 +1,42 @@
+.advantage{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    justify-content: space-around;
+    height: 150px;
+}
+.advantageLeft{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: grid;
+    place-items: center;
+    background-color: #00ffa4;
+    margin-right: 10px;
+}
+.advantageLeft img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.advantageRight{
+    width: 60%;
+}
+.advantageRight h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.advantageRight p{
+    color: rgba(23, 30, 47, 0.5);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media screen and (max-width:300) {
+    .advantageLeft img{
+        width: 20px;
+        height: 20px;
+        /* object-fit: contain; */
+    }
+}

@@ -1,0 +1,76 @@
+.footer{
+    background-color: rgb(23, 30, 48);
+    padding: 0 100px;
+}
+.footerTop{
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.footerTop p:first-child{
+    color:rgb(255,255,255);
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.footerTop p:last-child{
+    font-size: 14px;
+    color: rgb(183,186,195);
+    font-weight: 600;
+}
+.footerBottom{
+    display: flex;
+    padding: 80px 0;
+    justify-content: space-between;
+}
+.image img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+.columns h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: white;
+}
+.columns p{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+}
+.columns p:hover{
+    text-decoration: underline;
+}
+.scooterImage img{
+    width: 260px;
+    height: 200px;
+}
+
+@media screen and (max-width:500px) {
+    .footerBottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .columns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .columns h4{
+        text-decoration: underline;
+    }
+    .scooterImage{
+        display: none;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:650px) {
+    .scooterImage{
+        display: none;
+    }
+}
